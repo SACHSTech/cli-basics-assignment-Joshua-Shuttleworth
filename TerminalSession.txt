@@ -1,1 +1,27 @@
-
+~/cli-basics-assignment-Joshua-Shuttleworth$ pwd
+/home/runner/cli-basics-assignment-Joshua-Shuttleworth
+~/cli-basics-assignment-Joshua-Shuttleworth$ mkdir CLIBasicsFolder
+~/cli-basics-assignment-Joshua-Shuttleworth$ ls -a
+.  ..  CLIBasicsFolder  .git  .github  README.md  .replit  TerminalSession.txt
+~/cli-basics-assignment-Joshua-Shuttleworth$ cd CLIBasicsFolder
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ vim myfile.txt
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ cat myfile.txt
+Joshua Shuttleworth
+ICS4U1
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ cp myfile.txt myfile_copy.txt
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ ls -a
+.  ..  myfile_copy.txt  myfile.txt
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ mv myfile_copy.txt myfile2.txt
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ mv myfile2.txt ~
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ ls -a ~
+.         .bashrc                    .config      .profile
+..        .cache                     myfile2.txt  _test_runner.py
+.bash_logout  cli-basics-assignment-Joshua-Shuttleworth  .npm         .viminfo
+~/cli-basics-assignment-Joshua-Shuttleworth/CLIBasicsFolder$ cd ..
+~/cli-basics-assignment-Joshua-Shuttleworth$ rm CLIBasicsFolder/myfile.txt
+~/cli-basics-assignment-Joshua-Shuttleworth$ rmdir CLIBasicsFolder
+~/cli-basics-assignment-Joshua-Shuttleworth$ ls -a ~
+.         .bashrc                    .config      .profile
+..        .cache                     myfile2.txt  _test_runner.py
+.bash_logout  cli-basics-assignment-Joshua-Shuttleworth  .npm         .viminfo
+~/cli-basics-assignment-Joshua-Shuttleworth$ 
